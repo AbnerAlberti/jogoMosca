@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar 100% da altura do viewport */
+    margin: 0; /* Remover margens padrão */
+    background-color: #f0f0f0; /* Cor de fundo do corpo */
+    border: #030303;
+}
+
+#cnv {
+    border-radius: 10px; /* Raio da borda arredondada */
+    border: 2px solid #141414; /* Largura, estilo e cor da borda */
+}
+
+#cnv:hover {
+    cursor: url('spr/mao1.png'), auto;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
